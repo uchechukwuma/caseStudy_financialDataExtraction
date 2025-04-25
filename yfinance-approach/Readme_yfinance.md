@@ -7,6 +7,14 @@ Extracts financial data for companies from Yahoo Finance API for the most recent
 - Validates and cleans financial data
 - Outputs to properly formatted Excel files
 
+## 🏗 Project Structure
+company-financials-case-study/
+├── yfinance-approach/                # First approach using Yahoo Finance
+│   ├── src/
+│   │   └── case_study_financialData.py     # Main script
+│   ├── case_study_financialData.txt        # Specific to yfinance
+│   └── README.md                     # Specific docs
+
 ## Usage
 1. Install requirements: `pip install -r requirements.txt`
 2. Run: `python case_study_test.py`

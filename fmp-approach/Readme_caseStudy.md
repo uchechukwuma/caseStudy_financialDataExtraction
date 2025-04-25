@@ -8,11 +8,11 @@ It was developed as part of a case study task focused on **data sourcing and tra
 ## 📦 Project Structure
 
 company-financials-case-study/ 
-├── data/ 
+├── fmp-approach/ 
 │ └── company_financials.xlsx # Final output file (generated) │ ├── src/ 
 │ └── extract_financials.py # Main Python script │ ├── .env.example # Template for environment variables ├── .gitignore # To keep sensitive files out of Git 
 ├── requirements.txt # Python dependencies 
-├── README.md # This file
+├── Readme_caseStudy.md # This file
 ├──company_symbols
 
 
@@ -32,8 +32,8 @@ company-financials-case-study/
 
 ### 1. 📥 Clone the Repository
 ```bash
-git clone https://github.com/your-username/company-financials-case-study.git
-cd company-financials-case-study
+git clone https://github.com/uchechukwuma/caseStudy_financialDataExtraction
+cd company_financials_caseStudy
 
 ### 2. 🧪 Create a .env File
 Create a .env file in the root directory and paste in your API key:

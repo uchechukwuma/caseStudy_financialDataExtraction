@@ -15,14 +15,14 @@ This project demonstrates two different methods for extracting company financial
    - Better for production use
 
 ## 📊 Sample Output
-See [docs/SAMPLE_OUTPUT.xlsx](docs/SAMPLE_OUTPUT.xlsx) for the expected format
+See [documents/SAMPLE_OUTPUT.xlsx](docs/SAMPLE_OUTPUT.xlsx) for the expected format
 
 ## 🏗 Project Structure
 company-financials-case-study/
 ├── yfinance-approach/                # First approach using Yahoo Finance
 │   ├── src/
-│   │   └── yfinance_extractor.py     # Main script
-│   ├── requirements.txt              # Specific to yfinance
+│   │   └── case_study_financialData.py     # Main script
+│   ├── case_study_financialData.txt        # Specific to yfinance
 │   └── README.md                     # Specific docs
 │
 ├── fmp-approach/                     # Second approach using Financial Modeling Prep
@@ -30,15 +30,16 @@ company-financials-case-study/
 │   │   └── fmp_extractor.py          # Main script
 │   ├── requirements.txt              # Specific to FMP
 │   ├── .env.example                  # API key template
-│   └── README.md                     # Specific docs
+│   ├── README.md                     # Specific docs
 │   └── company_symbols
 │
-├── docs/                             # Common documentation
+├── documents/                             # Common documentation
 │   ├── COMPARISON.md                 # Comparison of both approaches
 │   └── SAMPLE_OUTPUT.xlsx            # Example output file
 │
 ├── .gitignore                        # Combined ignore rules
-└── README.md                         # Main project overview
+├── README.md                         # Main project overview
+└── Company_Background                # Overview of covered companies
 
 ## 🚀 Quick Deployment
 
